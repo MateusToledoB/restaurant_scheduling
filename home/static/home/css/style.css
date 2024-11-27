@@ -1,0 +1,63 @@
+/* Garante que o HTML e o body ocupem toda a altura da página */
+html, body {
+    height: 100%;
+    margin: 0; /* Remove margens padrão */
+    display: flex; /* Habilita o Flexbox */
+    flex-direction: column; /* Organiza os elementos verticalmente */
+    background-color: #FEFAF3; /* Define uma cor de fundo */
+    font-family: Arial, sans-serif; /* Define uma fonte padrão */
+}
+header{
+    background-color: #490B00; /* Cor de fundo do footer */
+    padding: 20px; /* Espaçamento interno */
+    text-align: center; /* Centraliza o texto */
+    width: 100%; /* Garante que ocupe toda a largura */
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2); /* Adiciona uma sombra sutil */
+}
+
+header h1{
+    text-align: left;
+    color: #ffffff;
+    padding-left: 60px;
+    padding-right: 60px;
+    font-size: 25px; /* Ajusta o tamanho da fonte */
+}
+/* Estilizando o parágrafo dentro do footer */
+header p {
+    text-align: right;
+    color: #ffffff;
+    padding-left: 60px;
+    padding-right: 60px;
+    font-size: 14px; /* Ajusta o tamanho da fonte */
+
+}
+
+
+/* O <main> ocupa o espaço disponível entre o topo e o footer */
+main {
+    flex: 1;
+    display: flex;
+    justify-content: center; /* Centraliza o conteúdo horizontalmente */
+    align-items: center; /* Centraliza o conteúdo verticalmente */
+}
+
+/* Estilos para o footer */
+/* Estilos para o footer */
+footer {
+    background-color: #490B00; /* Cor de fundo do footer */
+    padding: 20px; /* Espaçamento interno */
+    text-align: center; /* Centraliza o texto */
+    width: 100%; /* Garante que ocupe toda a largura */
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2); /* Adiciona uma sombra sutil */
+}
+
+/* Estilizando o parágrafo dentro do footer */
+footer p {
+    text-align: right;
+    color: #ffffff;
+    padding-left: 60px;
+    padding-right: 60px;
+    font-size: 14px; /* Ajusta o tamanho da fonte */
+
+}
+
